@@ -14,14 +14,7 @@
  * limitations under the License.
  **/
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
-//! Project version number for DialogV1.
 FOUNDATION_EXPORT double DialogV1VersionNumber;
-
-//! Project version string for DialogV1.
 FOUNDATION_EXPORT const unsigned char DialogV1VersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <DialogV1/PublicHeader.h>
-
-

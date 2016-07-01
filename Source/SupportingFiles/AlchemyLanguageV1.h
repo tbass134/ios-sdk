@@ -14,14 +14,7 @@
  * limitations under the License.
  **/
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
-//! Project version number for AlchemyLanguageV1.
 FOUNDATION_EXPORT double AlchemyLanguageV1VersionNumber;
-
-//! Project version string for AlchemyLanguageV1.
 FOUNDATION_EXPORT const unsigned char AlchemyLanguageV1VersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <AlchemyLanguageV1/PublicHeader.h>
-
-

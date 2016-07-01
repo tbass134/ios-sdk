@@ -14,14 +14,7 @@
  * limitations under the License.
  **/
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
-//! Project version number for ConversationV1Experimental.
 FOUNDATION_EXPORT double ConversationV1ExperimentalVersionNumber;
-
-//! Project version string for ConversationV1Experimental.
 FOUNDATION_EXPORT const unsigned char ConversationV1ExperimentalVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <ConversationV1Experimental/PublicHeader.h>
-
-

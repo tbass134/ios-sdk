@@ -14,14 +14,7 @@
  * limitations under the License.
  **/
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
-//! Project version number for TradeoffAnalyticsV1.
 FOUNDATION_EXPORT double TradeoffAnalyticsV1VersionNumber;
-
-//! Project version string for TradeoffAnalyticsV1.
 FOUNDATION_EXPORT const unsigned char TradeoffAnalyticsV1VersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <TradeoffAnalyticsV1/PublicHeader.h>
-
-

@@ -14,14 +14,7 @@
  * limitations under the License.
  **/
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
-//! Project version number for ToneAnalyzerV3.
 FOUNDATION_EXPORT double ToneAnalyzerV3VersionNumber;
-
-//! Project version string for ToneAnalyzerV3.
 FOUNDATION_EXPORT const unsigned char ToneAnalyzerV3VersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <ToneAnalyzerV3/PublicHeader.h>
-
-

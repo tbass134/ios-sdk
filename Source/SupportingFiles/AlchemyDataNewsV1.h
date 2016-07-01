@@ -14,14 +14,7 @@
  * limitations under the License.
  **/
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
-//! Project version number for AlchemyDataNewsV1.
 FOUNDATION_EXPORT double AlchemyDataNewsV1VersionNumber;
-
-//! Project version string for AlchemyDataNewsV1.
 FOUNDATION_EXPORT const unsigned char AlchemyDataNewsV1VersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <AlchemyDataNewsV1/PublicHeader.h>
-
-

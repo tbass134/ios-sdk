@@ -14,14 +14,7 @@
  * limitations under the License.
  **/
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
-//! Project version number for RestKit.
 FOUNDATION_EXPORT double RestKitVersionNumber;
-
-//! Project version string for RestKit.
 FOUNDATION_EXPORT const unsigned char RestKitVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <RestKit/PublicHeader.h>
-
-

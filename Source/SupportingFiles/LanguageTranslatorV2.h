@@ -14,14 +14,7 @@
  * limitations under the License.
  **/
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
-//! Project version number for LanguageTranslatorV2.
 FOUNDATION_EXPORT double LanguageTranslatorV2VersionNumber;
-
-//! Project version string for LanguageTranslatorV2.
 FOUNDATION_EXPORT const unsigned char LanguageTranslatorV2VersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <LanguageTranslatorV2/PublicHeader.h>
-
-

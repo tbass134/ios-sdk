@@ -14,12 +14,7 @@
  * limitations under the License.
  **/
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
-//! Project version number for WatsonDeveloperCloud.
 FOUNDATION_EXPORT double WatsonDeveloperCloudVersionNumber;
-
-//! Project version string for WatsonDeveloperCloud.
 FOUNDATION_EXPORT const unsigned char WatsonDeveloperCloudVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <WatsonDeveloperCloud/PublicHeader.h>
