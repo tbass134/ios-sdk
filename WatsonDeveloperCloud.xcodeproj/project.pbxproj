@@ -28,6 +28,37 @@
 		124C2E281D19E34B00D9F602 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAAF39E1CEE99FC00B74848 /* RestKit.framework */; };
 		124C2E2A1D19E3D000D9F602 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A61176B1CB5ADC2009A4DA1 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		124C2E2B1D19E3D000D9F602 /* Freddy.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A61176C1CB5ADC2009A4DA1 /* Freddy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7A11BDF11D270583004180D0 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A11BDE71D270582004180D0 /* RestKit.framework */; };
+		7A11BE031D270762004180D0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A11BE001D270762004180D0 /* Alamofire.framework */; };
+		7A11BE041D270762004180D0 /* Freddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A11BE011D270762004180D0 /* Freddy.framework */; };
+		7A11BE061D2707B4004180D0 /* RestKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAAF5B21CEEA62C00B74848 /* RestKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A11BE081D270BDF004180D0 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A11BE001D270762004180D0 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7A11BE091D270BDF004180D0 /* Freddy.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A11BE011D270762004180D0 /* Freddy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7A11BE0A1D270C08004180D0 /* RestUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA9A3C1CEE3059002C9564 /* RestUtilities.swift */; };
+		7A11BE0B1D270C08004180D0 /* RestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61174F1CB5988B009A4DA1 /* RestRequest.swift */; };
+		7A11BE0C1D270C08004180D0 /* RestSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6117501CB5988B009A4DA1 /* RestSerialization.swift */; };
+		7A11BE0D1D270C08004180D0 /* RestToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA9A3D1CEE3059002C9564 /* RestToken.swift */; };
+		7A11BE1D1D270D0A004180D0 /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A11BE131D270D0A004180D0 /* VisualRecognitionV3.framework */; };
+		7A11BE2A1D270D31004180D0 /* VisualRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA9A5A1CEE6089002C9564 /* VisualRecognition.swift */; };
+		7A11BE2B1D270D3B004180D0 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA9A481CEE6089002C9564 /* Class.swift */; };
+		7A11BE2C1D270D3B004180D0 /* ClassifiedImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA9A491CEE6089002C9564 /* ClassifiedImages.swift */; };
+		7A11BE2D1D270D3B004180D0 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA9A4A1CEE6089002C9564 /* Classifier.swift */; };
+		7A11BE2E1D270D3B004180D0 /* ErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA9A4B1CEE6089002C9564 /* ErrorInfo.swift */; };
+		7A11BE2F1D270D3B004180D0 /* ImagesWithFaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA9A4C1CEE6089002C9564 /* ImagesWithFaces.swift */; };
+		7A11BE301D270D3B004180D0 /* WarningInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA9A4D1CEE6089002C9564 /* WarningInfo.swift */; };
+		7A11BE311D270D3B004180D0 /* ImagesWithWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA9A4E1CEE6089002C9564 /* ImagesWithWords.swift */; };
+		7A11BE321D270D48004180D0 /* baseball.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA9A511CEE6089002C9564 /* baseball.zip */; };
+		7A11BE331D270D48004180D0 /* cars.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA9A521CEE6089002C9564 /* cars.zip */; };
+		7A11BE341D270D48004180D0 /* trucks.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA9A531CEE6089002C9564 /* trucks.zip */; };
+		7A11BE351D270D4D004180D0 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA9A551CEE6089002C9564 /* car.png */; };
+		7A11BE361D270D4D004180D0 /* faces.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA9A561CEE6089002C9564 /* faces.zip */; };
+		7A11BE371D270D4D004180D0 /* obama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA9A571CEE6089002C9564 /* obama.jpg */; };
+		7A11BE381D270D4D004180D0 /* sign.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA9A581CEE6089002C9564 /* sign.jpg */; };
+		7A11BE391D270D52004180D0 /* VisualRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA9A591CEE6089002C9564 /* VisualRecognitionTests.swift */; };
+		7A11BE3A1D270D66004180D0 /* VisualRecognitionV3.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAAF5B61CEEA62C00B74848 /* VisualRecognitionV3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A11BE3B1D270DA4004180D0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A11BE001D270762004180D0 /* Alamofire.framework */; };
+		7A11BE3C1D270DA4004180D0 /* Freddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A11BE011D270762004180D0 /* Freddy.framework */; };
+		7A11BE3D1D270DBA004180D0 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A11BDE71D270582004180D0 /* RestKit.framework */; };
 		7A1C62581D18773E00B721E9 /* Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A34CB511C233E2100F20D0E /* Credentials.plist */; };
 		7A219F101D1350670003D934 /* ConversationV1Experimental.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A219F061D1350670003D934 /* ConversationV1Experimental.framework */; };
 		7A219F241D1350CC0003D934 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A219F1E1D1350CC0003D934 /* Conversation.swift */; };
@@ -271,6 +302,10 @@
 		7AB53B921CF64DE700FFC9DD /* AlchemyLanguageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB53B8F1CF64DE700FFC9DD /* AlchemyLanguageTests.swift */; };
 		7AB53B931CF64DE700FFC9DD /* testArticle.html in Resources */ = {isa = PBXBuildFile; fileRef = 7AB53B901CF64DE700FFC9DD /* testArticle.html */; };
 		7AB53B941CF64DE700FFC9DD /* testText.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7AB53B911CF64DE700FFC9DD /* testText.txt */; };
+		7AEA82211D2710BF0028781C /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A11BE001D270762004180D0 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7AEA82221D2710BF0028781C /* Freddy.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A11BE011D270762004180D0 /* Freddy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7AEA82231D2710BF0028781C /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A11BE021D270762004180D0 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7AEA82241D2710DC0028781C /* Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A34CB511C233E2100F20D0E /* Credentials.plist */; };
 		B104CA921CFDE0BE00083E87 /* QueryParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = B104CA911CFDE0BE00083E87 /* QueryParam.swift */; };
 		B11545ED1CF76D5100A31024 /* AlchemyLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB53B571CF64DD900FFC9DD /* AlchemyLanguage.swift */; };
 		B11545EF1CF77B0400A31024 /* DocumentEmotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11545EE1CF77B0400A31024 /* DocumentEmotion.swift */; };
@@ -332,6 +367,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 124C2DEE1D19E29000D9F602;
 			remoteInfo = TextToSpeechV1;
+		};
+		7A11BDF21D270583004180D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A0F95AA1C23288E004C01C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A11BDE61D270582004180D0;
+			remoteInfo = "RestKit macOS";
+		};
+		7A11BE1E1D270D0A004180D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A0F95AA1C23288E004C01C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A11BE121D270D0A004180D0;
+			remoteInfo = "VisualRecognitionV3 (macOS)";
 		};
 		7A219F111D1350670003D934 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -449,6 +498,17 @@
 			files = (
 				124C2E2A1D19E3D000D9F602 /* Alamofire.framework in CopyFiles */,
 				124C2E2B1D19E3D000D9F602 /* Freddy.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A11BE071D270BD6004180D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7A11BE081D270BDF004180D0 /* Alamofire.framework in CopyFiles */,
+				7A11BE091D270BDF004180D0 /* Freddy.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +656,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AEA82201D2710B60028781C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7AEA82211D2710BF0028781C /* Alamofire.framework in CopyFiles */,
+				7AEA82221D2710BF0028781C /* Freddy.framework in CopyFiles */,
+				7AEA82231D2710BF0028781C /* Starscream.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1A8E55B1D19DD7200678412 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -649,6 +721,13 @@
 		7A0F95B61C23288E004C01C0 /* WatsonDeveloperCloud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WatsonDeveloperCloud.h; path = Source/SupportingFiles/WatsonDeveloperCloud.h; sourceTree = "<group>"; };
 		7A0F95B81C23288E004C01C0 /* Info-Release.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-Release.plist"; path = "Source/SupportingFiles/Info-Release.plist"; sourceTree = "<group>"; };
 		7A0F95C41C23288E004C01C0 /* Info-Tests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-Tests.plist"; path = "Source/SupportingFiles/Info-Tests.plist"; sourceTree = "<group>"; };
+		7A11BDE71D270582004180D0 /* RestKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RestKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A11BDF01D270583004180D0 /* RestKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A11BE001D270762004180D0 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
+		7A11BE011D270762004180D0 /* Freddy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Freddy.framework; path = Carthage/Build/Mac/Freddy.framework; sourceTree = "<group>"; };
+		7A11BE021D270762004180D0 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/Mac/Starscream.framework; sourceTree = "<group>"; };
+		7A11BE131D270D0A004180D0 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VisualRecognitionV3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A11BE1C1D270D0A004180D0 /* VisualRecognitionV3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualRecognitionV3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A219F061D1350670003D934 /* ConversationV1Experimental.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConversationV1Experimental.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A219F0F1D1350670003D934 /* ConversationV1ExperimentalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConversationV1ExperimentalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A219F1E1D1350CC0003D934 /* Conversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Conversation.swift; path = ../ConversationV1Experimental/Conversation.swift; sourceTree = "<group>"; };
@@ -698,7 +777,6 @@
 		7A987D681D19D923003626B2 /* Sentence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sentence.swift; path = ../../RelationshipExtractionV1Beta/Models/Sentence.swift; sourceTree = "<group>"; };
 		7A987D691D19D923003626B2 /* RelationshipExtraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RelationshipExtraction.swift; path = ../RelationshipExtractionV1Beta/RelationshipExtraction.swift; sourceTree = "<group>"; };
 		7A987D6B1D19D923003626B2 /* RelationshipExtractionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RelationshipExtractionTests.swift; path = ../../RelationshipExtractionV1Beta/Tests/RelationshipExtractionTests.swift; sourceTree = "<group>"; };
-		7AA7AD3E1CED12CF009DD700 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
 		7AAA9A121CEE3026002C9564 /* AlternativeResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlternativeResult.swift; sourceTree = "<group>"; };
 		7AAA9A131CEE3026002C9564 /* AlternativeResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlternativeResults.swift; sourceTree = "<group>"; };
 		7AAA9A141CEE3026002C9564 /* KeywordResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeywordResult.swift; sourceTree = "<group>"; };
@@ -883,6 +961,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				124C2DF91D19E29100D9F602 /* TextToSpeechV1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A11BDE31D270582004180D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A11BE041D270762004180D0 /* Freddy.framework in Frameworks */,
+				7A11BE031D270762004180D0 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A11BDED1D270583004180D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A11BDF11D270583004180D0 /* RestKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A11BE0F1D270D0A004180D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A11BE3B1D270DA4004180D0 /* Alamofire.framework in Frameworks */,
+				7A11BE3C1D270DA4004180D0 /* Freddy.framework in Frameworks */,
+				7A11BE3D1D270DBA004180D0 /* RestKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A11BE191D270D0A004180D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A11BE1D1D270D0A004180D0 /* VisualRecognitionV3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1289,6 +1402,10 @@
 				7A987D541D19D887003626B2 /* RelationshipExtractionV1BetaTests.xctest */,
 				124C2DEF1D19E29000D9F602 /* TextToSpeechV1.framework */,
 				124C2DF81D19E29100D9F602 /* TextToSpeechV1Tests.xctest */,
+				7A11BDE71D270582004180D0 /* RestKit.framework */,
+				7A11BDF01D270583004180D0 /* RestKitTests.xctest */,
+				7A11BE131D270D0A004180D0 /* VisualRecognitionV3.framework */,
+				7A11BE1C1D270D0A004180D0 /* VisualRecognitionV3Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1296,12 +1413,30 @@
 		7A0F97301C232CB5004C01C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7A61176B1CB5ADC2009A4DA1 /* Alamofire.framework */,
-				7A61176C1CB5ADC2009A4DA1 /* Freddy.framework */,
-				7AA7AD3E1CED12CF009DD700 /* ObjectMapper.framework */,
-				7A61176D1CB5ADC2009A4DA1 /* Starscream.framework */,
+				7A11BDFF1D270704004180D0 /* iOS */,
+				7A11BDFE1D2706FD004180D0 /* macOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A11BDFE1D2706FD004180D0 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7A11BE001D270762004180D0 /* Alamofire.framework */,
+				7A11BE011D270762004180D0 /* Freddy.framework */,
+				7A11BE021D270762004180D0 /* Starscream.framework */,
+			);
+			name = macOS;
+			sourceTree = "<group>";
+		};
+		7A11BDFF1D270704004180D0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7A61176B1CB5ADC2009A4DA1 /* Alamofire.framework */,
+				7A61176C1CB5ADC2009A4DA1 /* Freddy.framework */,
+				7A61176D1CB5ADC2009A4DA1 /* Starscream.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7A219F1D1D1350CC0003D934 /* ConversationV1Experimental */ = {
@@ -1851,6 +1986,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7A11BDE41D270582004180D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A11BE061D2707B4004180D0 /* RestKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A11BE101D270D0A004180D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A11BE3A1D270D66004180D0 /* VisualRecognitionV3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7A219F031D1350670003D934 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2008,6 +2159,80 @@
 			name = TextToSpeechV1Tests;
 			productName = TextToSpeechV1Tests;
 			productReference = 124C2DF81D19E29100D9F602 /* TextToSpeechV1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A11BDE61D270582004180D0 /* RestKit (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A11BDF81D270583004180D0 /* Build configuration list for PBXNativeTarget "RestKit (macOS)" */;
+			buildPhases = (
+				7A11BDE21D270582004180D0 /* Sources */,
+				7A11BDE31D270582004180D0 /* Frameworks */,
+				7A11BDE41D270582004180D0 /* Headers */,
+				7A11BDE51D270582004180D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RestKit (macOS)";
+			productName = "RestKit macOS";
+			productReference = 7A11BDE71D270582004180D0 /* RestKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A11BDEF1D270583004180D0 /* RestKitTests (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A11BDFB1D270583004180D0 /* Build configuration list for PBXNativeTarget "RestKitTests (macOS)" */;
+			buildPhases = (
+				7A11BDEC1D270583004180D0 /* Sources */,
+				7A11BDED1D270583004180D0 /* Frameworks */,
+				7A11BDEE1D270583004180D0 /* Resources */,
+				7A11BE071D270BD6004180D0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A11BDF31D270583004180D0 /* PBXTargetDependency */,
+			);
+			name = "RestKitTests (macOS)";
+			productName = "RestKit macOSTests";
+			productReference = 7A11BDF01D270583004180D0 /* RestKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A11BE121D270D0A004180D0 /* VisualRecognitionV3 (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A11BE241D270D0A004180D0 /* Build configuration list for PBXNativeTarget "VisualRecognitionV3 (macOS)" */;
+			buildPhases = (
+				7A11BE0E1D270D0A004180D0 /* Sources */,
+				7A11BE0F1D270D0A004180D0 /* Frameworks */,
+				7A11BE101D270D0A004180D0 /* Headers */,
+				7A11BE111D270D0A004180D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VisualRecognitionV3 (macOS)";
+			productName = "VisualRecognitionV3 (macOS)";
+			productReference = 7A11BE131D270D0A004180D0 /* VisualRecognitionV3.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A11BE1B1D270D0A004180D0 /* VisualRecognitionV3Tests (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A11BE271D270D0A004180D0 /* Build configuration list for PBXNativeTarget "VisualRecognitionV3Tests (macOS)" */;
+			buildPhases = (
+				7A11BE181D270D0A004180D0 /* Sources */,
+				7A11BE191D270D0A004180D0 /* Frameworks */,
+				7A11BE1A1D270D0A004180D0 /* Resources */,
+				7AEA82201D2710B60028781C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A11BE1F1D270D0A004180D0 /* PBXTargetDependency */,
+			);
+			name = "VisualRecognitionV3Tests (macOS)";
+			productName = "VisualRecognitionV3 (macOS)Tests";
+			productReference = 7A11BE1C1D270D0A004180D0 /* VisualRecognitionV3Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		7A219F051D1350670003D934 /* ConversationV1Experimental */ = {
@@ -2581,6 +2806,18 @@
 					124C2DF71D19E29100D9F602 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					7A11BDE61D270582004180D0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7A11BDEF1D270583004180D0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7A11BE121D270D0A004180D0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7A11BE1B1D270D0A004180D0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					7A219F051D1350670003D934 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = CDXLDASP22;
@@ -2723,6 +2960,10 @@
 				7AAAF3CB1CEE9A3700B74848 /* VisualRecognitionV3Tests */,
 				7AAAF39D1CEE99FC00B74848 /* RestKit */,
 				7AAAF3A61CEE99FC00B74848 /* RestKitTests */,
+				7A11BDE61D270582004180D0 /* RestKit (macOS) */,
+				7A11BDEF1D270583004180D0 /* RestKitTests (macOS) */,
+				7A11BE121D270D0A004180D0 /* VisualRecognitionV3 (macOS) */,
+				7A11BE1B1D270D0A004180D0 /* VisualRecognitionV3Tests (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -2740,6 +2981,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				124C2E251D19E32300D9F602 /* Credentials.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A11BDE51D270582004180D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A11BDEE1D270583004180D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A11BE111D270D0A004180D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A11BE1A1D270D0A004180D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A11BE351D270D4D004180D0 /* car.png in Resources */,
+				7AEA82241D2710DC0028781C /* Credentials.plist in Resources */,
+				7A11BE341D270D48004180D0 /* trucks.zip in Resources */,
+				7A11BE381D270D4D004180D0 /* sign.jpg in Resources */,
+				7A11BE331D270D48004180D0 /* cars.zip in Resources */,
+				7A11BE361D270D4D004180D0 /* faces.zip in Resources */,
+				7A11BE371D270D4D004180D0 /* obama.jpg in Resources */,
+				7A11BE321D270D48004180D0 /* baseball.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3026,6 +3303,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				124C2E231D19E30700D9F602 /* TextToSpeechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A11BDE21D270582004180D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A11BE0A1D270C08004180D0 /* RestUtilities.swift in Sources */,
+				7A11BE0D1D270C08004180D0 /* RestToken.swift in Sources */,
+				7A11BE0C1D270C08004180D0 /* RestSerialization.swift in Sources */,
+				7A11BE0B1D270C08004180D0 /* RestRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A11BDEC1D270583004180D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A11BE0E1D270D0A004180D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A11BE2D1D270D3B004180D0 /* Classifier.swift in Sources */,
+				7A11BE311D270D3B004180D0 /* ImagesWithWords.swift in Sources */,
+				7A11BE2E1D270D3B004180D0 /* ErrorInfo.swift in Sources */,
+				7A11BE2F1D270D3B004180D0 /* ImagesWithFaces.swift in Sources */,
+				7A11BE2B1D270D3B004180D0 /* Class.swift in Sources */,
+				7A11BE301D270D3B004180D0 /* WarningInfo.swift in Sources */,
+				7A11BE2C1D270D3B004180D0 /* ClassifiedImages.swift in Sources */,
+				7A11BE2A1D270D31004180D0 /* VisualRecognition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A11BE181D270D0A004180D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A11BE391D270D52004180D0 /* VisualRecognitionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3391,6 +3709,16 @@
 			target = 124C2DEE1D19E29000D9F602 /* TextToSpeechV1 */;
 			targetProxy = 124C2DFA1D19E29100D9F602 /* PBXContainerItemProxy */;
 		};
+		7A11BDF31D270583004180D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A11BDE61D270582004180D0 /* RestKit (macOS) */;
+			targetProxy = 7A11BDF21D270583004180D0 /* PBXContainerItemProxy */;
+		};
+		7A11BE1F1D270D0A004180D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A11BE121D270D0A004180D0 /* VisualRecognitionV3 (macOS) */;
+			targetProxy = 7A11BE1E1D270D0A004180D0 /* PBXContainerItemProxy */;
+		};
 		7A219F121D1350670003D934 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7A219F051D1350670003D934 /* ConversationV1Experimental */;
@@ -3623,6 +3951,172 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A11BDF91D270583004180D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/SupportingFiles/Info-Release.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.watson.developer-cloud.RestKit-macOS";
+				PRODUCT_NAME = RestKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A11BDFA1D270583004180D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/SupportingFiles/Info-Release.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.watson.developer-cloud.RestKit-macOS";
+				PRODUCT_NAME = RestKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7A11BDFC1D270583004180D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Source/SupportingFiles/Info-Tests.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.watson.developer-cloud.RestKitTests";
+				PRODUCT_MODULE_NAME = RestKitTests;
+				PRODUCT_NAME = RestKitTests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7A11BDFD1D270583004180D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Source/SupportingFiles/Info-Tests.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.watson.developer-cloud.RestKitTests";
+				PRODUCT_MODULE_NAME = RestKitTests;
+				PRODUCT_NAME = RestKitTests;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7A11BE251D270D0A004180D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/SupportingFiles/Info-Release.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.watson.developer-cloud.VisualRecognitionV3";
+				PRODUCT_NAME = VisualRecognitionV3;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A11BE261D270D0A004180D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/SupportingFiles/Info-Release.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.watson.developer-cloud.VisualRecognitionV3";
+				PRODUCT_NAME = VisualRecognitionV3;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7A11BE281D270D0A004180D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/SupportingFiles/Info-Tests.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.watson.developer-cloud.VisualRecognitionV3Tests";
+				PRODUCT_NAME = VisualRecognitionV3Tests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7A11BE291D270D0A004180D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/SupportingFiles/Info-Tests.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.watson.developer-cloud.VisualRecognitionV3Tests";
+				PRODUCT_NAME = VisualRecognitionV3Tests;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -4689,6 +5183,42 @@
 			buildConfigurations = (
 				7A0F95C51C23288E004C01C0 /* Debug */,
 				7A0F95C61C23288E004C01C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A11BDF81D270583004180D0 /* Build configuration list for PBXNativeTarget "RestKit (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A11BDF91D270583004180D0 /* Debug */,
+				7A11BDFA1D270583004180D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A11BDFB1D270583004180D0 /* Build configuration list for PBXNativeTarget "RestKitTests (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A11BDFC1D270583004180D0 /* Debug */,
+				7A11BDFD1D270583004180D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A11BE241D270D0A004180D0 /* Build configuration list for PBXNativeTarget "VisualRecognitionV3 (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A11BE251D270D0A004180D0 /* Debug */,
+				7A11BE261D270D0A004180D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A11BE271D270D0A004180D0 /* Build configuration list for PBXNativeTarget "VisualRecognitionV3Tests (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A11BE281D270D0A004180D0 /* Debug */,
+				7A11BE291D270D0A004180D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
