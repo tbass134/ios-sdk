@@ -19,9 +19,9 @@ import PackageDescription
 let package = Package(
   name: "WatsonDeveloperCloud",
     dependencies: [ 
-        .Package(url: "https://github.com/Alamofire/Alamofire.git", majorVersion: 3),
-        .Package(url: "https://github.com/bignerdranch/Freddy.git", majorVersion: 2),
-        .Package(url: "https://github.com/daltoniam/Starscream.git", majorVersion: 1)        
+        .Package(url: "https://github.com/tbass134/Alamofire", majorVersion: 3, minor:5),
+        .Package(url: "https://github.com/tbass134/Freddy.git", majorVersion: 2, minor:2),
+        .Package(url: "https://github.com/tbass134/Starscream.git", majorVersion: 1, minor:2)
     ],
     targets: [
         Target(name: "RestKit"),
