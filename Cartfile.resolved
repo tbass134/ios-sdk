@@ -1,3 +1,3 @@
-github "Alamofire/Alamofire" "swift2.3"
-github "bignerdranch/Freddy" "zwaldowski/swift-2_3"
-github "tbass134/Starscream" "master"
+github "Alamofire/Alamofire" "1ac83593aaea0bb31c5d22c86d5a2cf90498ee71"
+github "bignerdranch/Freddy" "81bda2e49d9569bc54a29d8bc93d5881bdd6faf3"
+github "tbass134/Starscream" "8b6ec5716a712d80760a5d348a06cc34ce0dae43"
